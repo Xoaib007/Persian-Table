@@ -14,7 +14,7 @@ const HomeBanner = () => {
 
             <div className='flex'>
                 <img src={bannerImage} alt=''/>
-                <img className='w-11 h-14' src={bannerImageElement} alt=''/>
+                <img className='w-[44px] h-[60px]' src={bannerImageElement} alt=''/>
             </div>
             
         </div>

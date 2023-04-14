@@ -3,7 +3,7 @@ import Header from '../Components/Header/Header';
 
 const HomePage = () => {
     return (
-        <div>
+        <div className='bg-[#5B0017] min-h-screen'>
             <Header/>
         </div>
     );

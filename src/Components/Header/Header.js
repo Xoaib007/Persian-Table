@@ -19,8 +19,8 @@ const Header = () => {
 
             <div className='text-2xl text-white font-bold flex items-center'>
                 {
-                        headerMenu.map(menu=>
-                            <Link className='mx-5'>{menu}</Link>
+                        headerMenu.map((menu,i)=>
+                            <Link to={`/${menu}`} className='mx-5' key={i}>{menu}</Link>
                         )
                     }
             </div>

@@ -32,7 +32,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.header {
+  font-size: 4.5rem;
+  line-height: 1;
+  background-color: #5b00178c;
+  
+}
+

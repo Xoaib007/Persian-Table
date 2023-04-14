@@ -4,7 +4,8 @@ import bannerImageElement from '../assets/BannerElement.png'
 
 const HomeBanner = () => {
     return (
-        <div className='mt-8 flex items-center'>
+        <div className='mt-8 mx-36'>
+            <div className='flex items-center'>
             <div className='text-white flex flex-col items-start mt-16'>
                 <p className='header'>Taste the authentic </p>
                 <p className='header'>Turkish cuisine</p>
@@ -16,8 +17,7 @@ const HomeBanner = () => {
                 <img src={bannerImage} alt='' />
                 <img className='element' src={bannerImageElement} alt='' />
             </div>
-
-
+        </div>
         </div>
     );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
+import logo from '../../assets/logo.png'
 
 const Header = () => {
     return (
         <div>
-            hi
+            <img src={logo} alt=''/>
         </div>
     );
 };

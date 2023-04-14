@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../assets/logo.png';
 import logo from '../../assets/logo.png'
 
 const Header = () => {
@@ -23,6 +24,10 @@ const Header = () => {
                         )
                     }
                 </ul>
+            </div>
+
+            <div>
+                <button className='w-64 h-16 bg-[#CC9D2F] text-2xl text-[#5B0017]'>Book Now</button>
             </div>
         </div>
     );

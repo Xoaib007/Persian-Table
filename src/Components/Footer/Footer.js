@@ -23,14 +23,14 @@ const Footer = () => {
                 }
             </div>
 
-            <div className='h-16 pt-5 px-10 border-t-2 border-black flex justify-between relative bottom-0'>
+            <div className='h-16 pt-5 px-10 border-t-2 border-black flex justify-between mt-24'>
                 <p className='text-xl'>© 2021 | All rights reserved.</p>
 
                 <div className='flex'>
-                    <img className='w-10 h-4 mx-4' src={facebook} alt=''/>
-                    <img className='w-10 h-4 mx-4' src={instagram} alt=''/>
-                    <img className='w-10 h-4 mx-4' src={tweeter} alt=''/>
-                    <img className='w-10 h-4 mx-4' src={linkedin} alt=''/>
+                    <img className='w-4 h-4 mx-4' src={facebook} alt=''/>
+                    <img className='w-4 h-4 mx-4' src={instagram} alt=''/>
+                    <img className='w-4 h-4 mx-4' src={tweeter} alt=''/>
+                    <img className='w-4 h-4 mx-4' src={linkedin} alt=''/>
                 </div>
             </div>
         </div>

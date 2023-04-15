@@ -10,10 +10,10 @@ const HomeBanner3 = () => {
             <div className='bg-[#CC9D2F]'>
                 <img className='relative top-[450px]' src={element} alt='' />
 
-                <div className='w-[363px] mr-16 ml-20'>
+                <div className='w-[363px] mr-16 ml-24'>
                     <div>
                         <p className='text-7xl text-left'>“</p>
-                        <p className='text-justify'>You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.</p>
+                        <p className='text-justify text-xl'>You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.</p>
                     </div>
 
                     <div className='flex justify-between mt-36 mb-2'>

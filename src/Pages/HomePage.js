@@ -3,6 +3,7 @@ import Header from '../Components/Header/Header';
 import HomeBanner from '../Components/HomeBanner/HomeBanner';
 import HomeBanner2 from '../Components/HomeBanner/HomeBanner2';
 import HomeBanner3 from '../Components/HomeBanner/HomeBanner3';
+import HomeBanner4 from '../Components/HomeBanner/HomeBanner4';
 
 const HomePage = () => {
     return (
@@ -11,6 +12,7 @@ const HomePage = () => {
             <HomeBanner/>
             <HomeBanner2/>
             <HomeBanner3/>
+            <HomeBanner4/>
         </div>
     );
 };

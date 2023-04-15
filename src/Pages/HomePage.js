@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Components/Footer/Footer';
 import Header from '../Components/Header/Header';
 import HomeBanner from '../Components/HomeBanner/HomeBanner';
 import HomeBanner2 from '../Components/HomeBanner/HomeBanner2';
@@ -13,6 +14,7 @@ const HomePage = () => {
             <HomeBanner2/>
             <HomeBanner3/>
             <HomeBanner4/>
+            <Footer/>
         </div>
     );
 };

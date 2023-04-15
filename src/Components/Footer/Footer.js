@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import facebook from '../../assets/Facebook.png';
-import instagram from '../../assets/Instagram.png';
-import tweeter from '../../assets/Tweeter.png';
-import linkedin from '../../assets/LinkedIn.png';
+import facebook from '../../assets/Facebook.svg';
+import instagram from '../../assets/Instagram.svg';
+import tweeter from '../../assets/Twitter.svg';
+import linkedin from '../../assets/LinkedIn.svg';
 
 const Footer = () => {
     const headerMenu = ['About', 'Menu', 'Venue', 'Events', 'Contacts Us'];
@@ -23,14 +23,14 @@ const Footer = () => {
                 }
             </div>
 
-            <div className='h-16 pt-20 px-10 border-t-2 border-black flex justify-between'>
-                <p>© 2021 | All rights reserved.</p>
+            <div className='h-16 pt-5 px-10 border-t-2 border-black flex justify-between relative bottom-0'>
+                <p className='text-xl'>© 2021 | All rights reserved.</p>
 
                 <div className='flex'>
-                    <img className='w-4 h-4 mx-4' src={facebook} alt=''/>
-                    <img className='w-4 h-4 mx-4' src={instagram} alt=''/>
-                    <img className='w-4 h-4 mx-4' src={tweeter} alt=''/>
-                    <img className='w-4 h-4 mx-4' src={linkedin} alt=''/>
+                    <img className='w-10 h-4 mx-4' src={facebook} alt=''/>
+                    <img className='w-10 h-4 mx-4' src={instagram} alt=''/>
+                    <img className='w-10 h-4 mx-4' src={tweeter} alt=''/>
+                    <img className='w-10 h-4 mx-4' src={linkedin} alt=''/>
                 </div>
             </div>
         </div>

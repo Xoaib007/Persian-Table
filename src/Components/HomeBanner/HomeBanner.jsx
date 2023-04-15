@@ -1,6 +1,6 @@
 import React from 'react';
-import bannerImage from '../assets/HomeBanner.png'
-import bannerImageElement from '../assets/BannerElement.png'
+import bannerImage from '../../assets/HomeBanner.png'
+import bannerImageElement from '../../assets/BannerElement.png'
 
 const HomeBanner = () => {
     return (

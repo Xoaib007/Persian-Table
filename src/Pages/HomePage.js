@@ -13,8 +13,8 @@ const HomePage = () => {
             <HomeBanner/>
             <HomeBanner2/>
             <HomeBanner3/>
-            <HomeBanner4/>
             
+            <Footer/>
         </div>
     );
 };

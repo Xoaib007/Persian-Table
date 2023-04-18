@@ -13,7 +13,7 @@ const HomeBanner2 = () => {
                 <p className='text-3xl'>A distinctive dining destination inspired by the culture.</p>
                 <p>Experience Al Balad old town of Jeddah vibes.</p>
 
-                <button>Our Vanue</button>
+                <button className='button2'>Our Vanue</button>
                 <div className='flex'>
                     <img src={Vanue1} alt=''/>
                     <img src={Vanue2} alt=''/>

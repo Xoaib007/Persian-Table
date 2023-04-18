@@ -42,7 +42,7 @@
   font-size: 4.5rem;
   line-height: 1;
   background-color: #5b00175a;
-
+  margin-bottom: 20px;
 }
 
 .element {
@@ -65,20 +65,20 @@
 }
 
 .button {
-  width: 10rem;
+  width: 160px;
   border-color: #CC9D2F;
-  height: 4rem;
+  height: 64px;
   border-width: 2px;
   color: #CC9D2F;
   font-size: 1.5rem;
   line-height: 2rem;
+  margin-top: 20px;
 }
 
 .button2 {
-  width: 10rem;
+  width: 160px;
   background-color: #CC9D2F;
-  height: 4rem;
-  border-width: 2px;
+  height: 64px;
   color: #5B0017;
   font-size: 1.5rem;
   line-height: 2rem;

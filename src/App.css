@@ -63,3 +63,15 @@
   background-image: url(/src/assets/banner4bg.png);
   background-repeat: no-repeat;
 }
+
+.button {
+  width: 10rem;
+  --tw-border-opacity: 1;
+    border-color: rgb(204 157 47 / var(--tw-border-opacity));
+    height: 4rem;
+    border-width: 2px;
+    --tw-text-opacity: 1;
+    color: rgb(204 157 47 / var(--tw-text-opacity));
+    font-size: 1.5rem/* 24px */;
+    line-height: 2rem/* 32px */;
+}

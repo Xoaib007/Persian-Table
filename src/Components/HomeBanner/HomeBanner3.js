@@ -6,7 +6,7 @@ import line from '../../assets/Line.png'
 
 const HomeBanner3 = () => {
     return (
-        <div className='flex mx-10 mt-20 pb-60'>
+        <div className='flex justify-center mt-20 pb-60'>
             <div className='bg-[#CC9D2F]'>
                 <img className='relative top-[450px]' src={element} alt='' />
 

@@ -4,7 +4,7 @@ import bannerImageElement from '../../assets/BannerElement.png'
 
 const HomeBanner = () => {
     return (
-        <div className='flex items-center justify-center banner pt-40'>
+        <div className='flex items-center justify-center banner'>
             <div className='text-white flex flex-col items-start'>
                 <p className='header'>Taste the authentic </p>
                 <p className='header'>Turkish cuisine</p>

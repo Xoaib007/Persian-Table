@@ -39,7 +39,7 @@
 }
 
 .header {
-  font-size: 4.5rem;
+  font-size: 5rem;
   line-height: 1;
   background-color: #5b00175a;
   margin-bottom: 20px;
@@ -88,4 +88,9 @@
 .homebanner2 {
   margin-top: 230px;
   margin-bottom: 230px;
+}
+
+.overlay {
+  position: relative;
+  left: 220px
 }

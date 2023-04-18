@@ -90,9 +90,15 @@
 .homebanner2 {
   margin-top: 230px;
   margin-bottom: 230px;
+  column-gap: 50px;
 }
 
 .overlay {
   position: relative;
-  left: 220px
+  left: 220px;
+}
+
+.xl {
+  font-size: 3rem/* 48px */;
+    line-height: 1;
 }

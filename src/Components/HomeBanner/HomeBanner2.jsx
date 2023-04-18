@@ -6,12 +6,12 @@ import Vanue3 from '../../assets/vanue3.png';
 
 const HomeBanner2 = () => {
     return (
-        <div className='flex text-white mx-auto justify-center homebanner2'>
+        <div className='flex text-white mx-auto justify-center homebanner2 gap-x-2'>
             <img className='w-[400px] h-[620px]' src={HomeBanner} alt=''/>
 
-            <div className='flex flex-col items-center justify-center'>
-                <p className='text-3xl'>A distinctive dining destination inspired by the culture.</p>
-                <p>Experience Al Balad old town of Jeddah vibes.</p>
+            <div className='flex flex-col justify-center'>
+                <p className='xl text-justify'>A distinctive dining destination <br/> inspired by the culture.</p>
+                <p className=' text-justify'>Experience Al Balad old town of Jeddah vibes.</p>
 
                 <button className='button2'>Our Vanue</button>
                 <div className='flex'>

@@ -69,7 +69,17 @@
   border-color: #CC9D2F;
   height: 4rem;
   border-width: 2px;
-  color: r#CC9D2F;
+  color: #CC9D2F;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.button2 {
+  width: 10rem;
+  border-color: #CC9D2F;
+  height: 4rem;
+  border-width: 2px;
+  color: #CC9D2F;
   font-size: 1.5rem;
   line-height: 2rem;
 }

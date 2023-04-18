@@ -6,10 +6,10 @@ import Vanue3 from '../../assets/vanue3.png';
 
 const HomeBanner2 = () => {
     return (
-        <div className='flex text-white mt-20'>
+        <div className='flex text-white mt-20 mx-auto justify-center'>
             <img src={HomeBanner} alt=''/>
 
-            <div>
+            <div className='flex flex-col items-center justify-center'>
                 <p className='text-3xl'>A distinctive dining destination inspired by the culture.</p>
                 <p>Experience Al Balad old town of Jeddah vibes.</p>
 

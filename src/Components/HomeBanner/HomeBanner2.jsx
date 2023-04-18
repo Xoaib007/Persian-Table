@@ -6,7 +6,7 @@ import Vanue3 from '../../assets/vanue3.png';
 
 const HomeBanner2 = () => {
     return (
-        <div className='flex text-white mt-20 mx-auto justify-center'>
+        <div className='flex text-white mx-auto justify-center homebanner2'>
             <img src={HomeBanner} alt=''/>
 
             <div className='flex flex-col items-center justify-center'>

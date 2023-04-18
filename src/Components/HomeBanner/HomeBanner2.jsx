@@ -7,7 +7,7 @@ import Vanue3 from '../../assets/vanue3.png';
 const HomeBanner2 = () => {
     return (
         <div className='flex text-white mx-auto justify-center homebanner2'>
-            <img src={HomeBanner} alt=''/>
+            <img className='w-[400px] h-[620px]' src={HomeBanner} alt=''/>
 
             <div className='flex flex-col items-center justify-center'>
                 <p className='text-3xl'>A distinctive dining destination inspired by the culture.</p>

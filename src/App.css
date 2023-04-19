@@ -107,4 +107,8 @@
 
 .vanue-cont {
   width: 75%;
+  border-bottom-width: 4px;
+  border-color: #CC9D2F;
+  padding-bottom: 50px;
+  margin-top: 40px;
 }

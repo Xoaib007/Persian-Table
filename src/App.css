@@ -84,7 +84,8 @@
   color: #5B0017;
   font-size: 1.5rem;
   line-height: 2rem;
-  margin-top: 20px;
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
 
 .homebanner2 {
@@ -101,4 +102,5 @@
 .xl {
   font-size: 3.5rem/* 48px */;
     line-height: 1;
+    margin-bottom: 30px;
 }

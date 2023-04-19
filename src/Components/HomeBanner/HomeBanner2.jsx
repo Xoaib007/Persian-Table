@@ -14,7 +14,7 @@ const HomeBanner2 = () => {
                 <p className=' text-justify'>Experience Al Balad old town of Jeddah vibes.</p>
 
                 <button className='button2'>Our Vanue</button>
-                <div className='flex'>
+                <div className='flex gap-10'>
                     <img src={Vanue1} alt=''/>
                     <img src={Vanue2} alt=''/>
                     <img src={Vanue3} alt=''/>

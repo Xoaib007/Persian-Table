@@ -88,6 +88,17 @@
   margin-bottom: 50px;
 }
 
+.button3 {
+  width: 160px;
+  background-color: #CC9D2F;
+  height: 64px;
+  color: #5B0017;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
 .homebanner2 {
   margin-top: 230px;
   margin-bottom: 230px;

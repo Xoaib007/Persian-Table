@@ -17,7 +17,7 @@ const Header2 = () => {
                 </div>
             </div>
 
-            <div className='text-2xl text-white font-bold flex items-center'>
+            <div className='text-2xl text-[#CC9D2F] font-bold flex items-center'>
                 {
                         headerMenu.map((menu,i)=>
                             <Link to={`/${menu}`} className='mx-5' key={i}>{menu}</Link>

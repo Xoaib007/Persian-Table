@@ -59,13 +59,6 @@
   right: 7%;
 }
 
-.bg {
-  height: 871px;
-  width: 90rem;
-  background-image: url(/src/assets/banner4bg.png);
-  background-repeat: no-repeat;
-}
-
 .button {
   width: 160px;
   border-color: #CC9D2F;

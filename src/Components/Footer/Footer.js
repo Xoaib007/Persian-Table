@@ -10,7 +10,7 @@ const Footer = () => {
 
     return (
         <div className='h-80 bg-[#CC9D2F] pt-14'>
-            <div className='flex items-start bg-black w-fit px-6 py-2 mx-auto'>
+            <div className='flex items-start bg-black w-fit px-10 py-4 mx-auto'>
                 <p className='text-white font-bold text-2xl mr-5'>Persian Table</p>
                 <p className='text-white font-bold text-2xl'>طاولة فارسية</p>
             </div>

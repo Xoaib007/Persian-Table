@@ -104,9 +104,11 @@
 }
 
 .xl {
-  font-size: 3.5rem/* 48px */;
-    line-height: 1;
-    margin-bottom: 30px;
+  font-size: 3.5rem
+    /* 48px */
+  ;
+  line-height: 1;
+  margin-bottom: 30px;
 }
 
 .vanue-cont {
@@ -130,3 +132,11 @@
   transform: translate(-50%, -50%);
   width: 90%;
 }
+
+.change-my-color {
+  filter: invert(50%) sepia(30%) saturate(1124%) hue-rotate(313deg) brightness(116%) contrast(77%);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+

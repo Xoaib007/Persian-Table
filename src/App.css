@@ -163,4 +163,10 @@
 
 .aboutbanner{
  padding-top: 10rem;
+ margin-left: 100px;
+ margin-right: 100px;
+}
+
+.title {
+  margin-bottom: 80px;
 }

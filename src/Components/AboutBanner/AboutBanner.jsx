@@ -6,9 +6,9 @@ const AboutBanner = () => {
     return (
         <div className='flex justify-center aboutbanner'>
             <div className='flex flex-col'>
-                <div className='pb-32'>
+                <div className='title'>
                     <p className='xll'>Our Story</p>
-                    <p className='mb-30'>We’re an absolute leader in the Saudi cuisine-themed restaurants. </p>
+                    <p className=''>We’re an absolute leader in the Saudi cuisine-themed restaurants. </p>
                 </div>
 
                 <div className='flex'>

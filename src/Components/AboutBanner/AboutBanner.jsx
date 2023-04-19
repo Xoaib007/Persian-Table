@@ -5,7 +5,7 @@ import img2 from '../../assets/About2.png';
 const AboutBanner = () => {
     return (
         <div className='flex justify-center aboutbanner'>
-            <div className='flex flex-col'>
+            <div className='flex flex-col title-box'>
                 <div className='title'>
                     <p className='xll'>Our Story</p>
                     <p className=''>We’re an absolute leader in the Saudi cuisine-themed restaurants. </p>

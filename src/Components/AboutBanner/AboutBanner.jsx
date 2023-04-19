@@ -4,11 +4,11 @@ import img2 from '../../assets/About2.png';
 
 const AboutBanner = () => {
     return (
-        <div className='flex'>
-            <div>
-                <div>
+        <div className='flex justify-center mt-40'>
+            <div className='flex flex-col'>
+                <div className='mb-10'>
                     <p className='xll'>Our Story</p>
-                    <p>We’re an absolute leader in the Saudi cuisine-themed restaurants. </p>
+                    <p className='mb-40'>We’re an absolute leader in the Saudi cuisine-themed restaurants. </p>
                 </div>
 
                 <div className='flex'>

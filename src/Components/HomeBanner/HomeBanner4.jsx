@@ -2,6 +2,7 @@ import React from 'react';
 import element from '../../assets/BannerElement.svg';
 import bg from '../../assets/banner4bg.png';
 import element1 from '../../assets/Element1.svg';
+import { Link } from 'react-router-dom';
 
 const HomeBanner4 = () => {
     return (
@@ -10,9 +11,11 @@ const HomeBanner4 = () => {
             <div class="centered">
                 <img className='mx-auto mt-20' src={element} alt='' />
                 <p className='xl'>A unique menu that reflects the<br /> true essence of the Saudi cuisine</p>
-                <button className='button3'>Our Menu</button>
+                <Link to='/'>
+                    <button className='button3'>Our Menu</button>
+                </Link>
             </div>
-            <img className='change-my-color' src={element1} alt=''/>
+            <img className='change-my-color' src={element1} alt='' />
         </div>
     );
 };

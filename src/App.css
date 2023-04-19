@@ -134,7 +134,7 @@
 }
 
 .change-my-color {
-  filter: invert(50%) sepia(30%) saturate(1124%) hue-rotate(313deg) brightness(116%) contrast(77%);
+  filter: invert(50%) sepia(30%) saturate(1124%) hue-rotate(313deg) brightness(116%) contrast(10%);
   position: absolute;
   bottom: 0;
   right: 0;

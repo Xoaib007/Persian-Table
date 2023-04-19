@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png';
 import book from '../../assets/bookNowBuuton.png'
 import { Link } from 'react-router-dom';
 
-const Header = () => {
+const Header2 = () => {
 
     const headerMenu = ['About', 'Menu', 'Venue', 'Events'];
 
@@ -33,4 +33,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Header2;

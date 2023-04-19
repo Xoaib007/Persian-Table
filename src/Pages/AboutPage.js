@@ -1,9 +1,10 @@
 import React from 'react';
+import AboutBanner from '../Components/AboutBanner/AboutBanner';
 
 const AboutPage = () => {
     return (
-        <div className='min-h-screen bg-[#5B0017]'>
-            
+        <div className='min-h-screen bg-[#CC9D2F]'>
+            <AboutBanner/>
         </div>
     );
 };

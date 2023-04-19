@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo2.png';
 import book from '../../assets/bookNowBuuton.png'
 import { Link } from 'react-router-dom';
 
@@ -11,9 +11,9 @@ const Header2 = () => {
         <div className='h-36 flex  justify-between px-10 bg-[#CC9D2F]'>
             <div className='flex items-center'>
                 <img className='w-20 h-20 mr-2' src={logo} alt='' />
-                <div className='flex flex-col items-start'>
-                    <p className='text-white font-bold text-3xl'>Persian Table</p>
-                    <p className='text-white font-bold text-3xl'>طاولة فارسية</p>
+                <div className='flex flex-col items-start text-black'>
+                    <p className='font-bold text-3xl'>Persian Table</p>
+                    <p className='font-bold text-3xl'>طاولة فارسية</p>
                 </div>
             </div>
 

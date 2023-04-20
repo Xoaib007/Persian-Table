@@ -11,9 +11,9 @@ const AboutBanner = () => {
                     <p className=''>We’re an absolute leader in the Saudi cuisine-themed restaurants. </p>
                 </div>
 
-                <div className='flex'>
+                <div className='flex justify-evenly'>
                     <img src={img1} alt='' />
-                    <img src={img2} alt='' />
+                    <img className='mb-20' src={img2} alt='' />
                 </div>
             </div>
 

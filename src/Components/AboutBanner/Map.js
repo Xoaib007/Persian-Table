@@ -2,7 +2,8 @@ import React from 'react';
 
 const Map = () => {
     return (
-        <div>
+        <div className='bg-[#243054]'>
+        
             
         </div>
     );

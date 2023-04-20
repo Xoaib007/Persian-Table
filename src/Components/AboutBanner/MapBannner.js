@@ -3,7 +3,7 @@ import Map from './Map';
 
 const MapBannner = () => {
     return (
-        <div className='bg-[#243054] flex p-28 mt-28 homebanner2'>
+        <div className='bg-[#243054] flex p-28 mt-28 mapbanner2'>
 
             <div className='bg-[#5B0017] text-xl text-white text-left p-16'>
                 <p className='text-[#CC9D2F] mb-3 mt-5'>Open Hours</p>
@@ -14,7 +14,7 @@ const MapBannner = () => {
                 <p className='text-[#CC9D2F] mb-3 mt-5'>Contact us</p>
                 <p>+123456789<br/>service@maizresturant.com</p>
             </div>
-            
+
             <Map />
         </div>
     );

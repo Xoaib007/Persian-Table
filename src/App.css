@@ -190,3 +190,10 @@
   width: 100vh;
   margin-left: 0;
 }
+
+.mapbanner {
+  background-image: url('../src/assets/bgelement.png');
+  background-size: 40rem;
+  background-repeat: no-repeat;
+  background-position: right;
+}

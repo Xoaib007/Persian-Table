@@ -11,9 +11,9 @@ const AboutBanner = () => {
                     <p className='text-2xl'>We’re an absolute leader in the Saudi cuisine-themed restaurants. </p>
                 </div>
 
-                <div className='flex justify-between'>
-                    <img className='' src={img1} alt='' />
-                    <img className='mr-20' src={img2} alt='' />
+                <div className='flex justify-between about-images'>
+                    <img className='about-images2' src={img1} alt='' />
+                    <img className='about-images1' src={img2} alt='' />
                 </div>
             </div>
 

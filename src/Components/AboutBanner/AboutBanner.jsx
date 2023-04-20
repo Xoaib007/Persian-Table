@@ -12,14 +12,14 @@ const AboutBanner = () => {
                 </div>
 
                 <div className='flex justify-center'>
-                    <img className='mb-80' src={img1} alt='' />
+                    <img className='' src={img1} alt='' />
                     <img src={img2} alt='' />
                 </div>
             </div>
 
             <div className='paragraph'>
-                <p className='text-white text-2xl'>One of the best resturants in Saudi Turkey.</p>
-                <p>Your one direction to high-quality Saudi feasts, since 1998 we served in Saudi Arabia.
+                <p className='text-white'>One of the best resturants in Saudi Turkey.</p>
+                <p >Your one direction to high-quality Saudi feasts, since 1998 we served in Saudi Arabia.
                     <br/><br/>
                     Locals who are proud of the country and want to introduce it to visitors from around the world.
                     We are perfectly positioned to provide our guests with an extraordinary health experience unlike any they’ve ever tasted. We can confidently claim that our menu is unlike anything else offered in the industry.

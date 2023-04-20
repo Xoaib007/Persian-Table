@@ -8,12 +8,12 @@ const AboutBanner = () => {
             <div className='flex flex-col title-box'>
                 <div className='title'>
                     <p className='xll'>Our Story</p>
-                    <p className=''>We’re an absolute leader in the Saudi cuisine-themed restaurants. </p>
+                    <p className='mb-40'>We’re an absolute leader in the Saudi cuisine-themed restaurants. </p>
                 </div>
 
-                <div className='flex justify-evenly'>
-                    <img src={img1} alt='' />
-                    <img className='mb-20' src={img2} alt='' />
+                <div className='flex justify-center'>
+                    <img className='mb-80' src={img1} alt='' />
+                    <img src={img2} alt='' />
                 </div>
             </div>
 

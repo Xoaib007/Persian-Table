@@ -3,7 +3,7 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css'
 
 const Map = () => {
-    const position = [51.505, -0.09]
+    const position = [39.9334, 32.8597]
 
     return (
         <div className=''>

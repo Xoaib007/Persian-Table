@@ -186,6 +186,7 @@
 }
 
 .leaflet-container {
-  height: 490px;
-  width: 30%;
+  height: 70vh;
+  width: 100vh;
+  margin-left: 0;
 }

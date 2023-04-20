@@ -156,8 +156,12 @@
 
 .aboutbanner{
  padding-top: 10rem;
- margin-left: 100px;
+ padding-left: 100px;
  margin-right: 100px;
+ background-image: url('../src/assets/bgelement.png');
+ background-size: 30rem;
+ background-repeat: no-repeat;
+ background-position: left;
 }
 
 .title {

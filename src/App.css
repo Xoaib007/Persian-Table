@@ -184,3 +184,8 @@
 .about-images2 {
   margin-bottom: 70px;
 }
+
+.leaflet-container {
+  height: 490px;
+  width: 30%;
+}

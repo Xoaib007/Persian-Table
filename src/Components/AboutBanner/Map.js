@@ -1,11 +1,12 @@
 import React from 'react';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css'
 
 const Map = () => {
     const position = [51.505, -0.09]
 
     return (
-        <div className='bg-[#243054]'>
+        <div className=''>
             <MapContainer center={position} zoom={13} scrollWheelZoom={false}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -16,8 +17,7 @@ const Map = () => {
                         A pretty CSS3 popup. <br /> Easily customizable.
                     </Popup>
                 </Marker>
-            </MapContainer>,
-
+            </MapContainer>
         </div>
     );
 };

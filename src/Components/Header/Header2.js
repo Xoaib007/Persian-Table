@@ -9,13 +9,13 @@ const Header2 = () => {
 
     return (
         <div className='h-36 flex  justify-between px-10 bg-[#CC9D2F]'>
-            <div className='flex items-center'>
+            <Link to='/' className='flex items-center'>
                 <img className='w-20 h-20 mr-2' src={logo} alt='' />
                 <div className='flex flex-col items-start text-black'>
                     <p className='font-bold text-3xl'>Persian Table</p>
                     <p className='font-bold text-3xl'>طاولة فارسية</p>
                 </div>
-            </div>
+            </Link>
 
             <div className='text-2xl text-[#5B0017] font-bold flex items-center'>
                 {

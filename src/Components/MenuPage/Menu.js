@@ -22,7 +22,6 @@ const Menu = () => {
                     )
                 )}
             </Document>
-
         </div>
     );
 };

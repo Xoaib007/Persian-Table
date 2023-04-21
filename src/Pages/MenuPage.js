@@ -19,50 +19,50 @@ const MenuPage = () => {
 
             <div className='text-white'>
                 <p>Chef's Special</p>
-                <div>
+                <div className='grid grid-cols-3 gap-10 mx-40'>
                     <div>
-                        <img src={dish1} alt='dish1'/>
-                        <p className='text-left bg-[#243054] p-8'>Bukhari</p>
+                        <img className='w-full' src={dish1} alt='dish1'/>
+                        <p className='text-left bg-[#243054] p-6' >Bukhari</p>
                     </div>
                     
                     <div>
-                        <img src={dish2} alt='dish1'/>
-                        <p>Saudi Makboos</p>
+                        <img className='w-full' src={dish2} alt='dish1'/>
+                        <p className='text-left bg-[#243054] p-6'>Saudi Makboos</p>
                     </div>
                     
                     <div>
-                        <img src={dish3} alt='dish1'/>
-                        <p>Zubiam</p>
+                        <img className='w-full' src={dish3} alt='dish1'/>
+                        <p className='text-left bg-[#243054] p-6'>Zubiam</p>
                     </div>
                     
                     <div>
-                        <img src={dish4} alt='dish1'/>
-                        <p>Kabsa</p>
+                        <img className='w-full' src={dish4} alt='dish1'/>
+                        <p className='text-left bg-[#243054] p-6'>Kabsa</p>
                     </div>
                     
                     <div>
-                        <img src={dish5} alt='dish1'/>
-                        <p>Madfoon</p>
+                        <img className='w-full' src={dish5} alt='dish1'/>
+                        <p className='text-left bg-[#243054] p-6'>Madfoon</p>
                     </div>
                     
                     <div>
-                        <img src={dish6} alt='dish1'/>
-                        <p>Math Lootha</p>
+                        <img className='w-full' src={dish6} alt='dish1'/>
+                        <p className='text-left bg-[#243054] p-6'>Math Lootha</p>
                     </div>
                     
                     <div>
-                        <img src={dish7} alt='dish1'/>
-                        <p>Margoug</p>
+                        <img className='w-full' src={dish7} alt='dish1'/>
+                        <p className='text-left bg-[#243054] p-6'>Margoug</p>
                     </div>
                     
                     <div>
-                        <img src={dish8} alt='dish1'/>
-                        <p>Sayadya</p>
+                        <img className='w-full' src={dish8} alt='dish1'/>
+                        <p className='text-left bg-[#243054] p-6'>Sayadya</p>
                     </div>
                     
                     <div>
-                        <img src={dish9} alt='dish1'/>
-                        <p>Saleeg</p>
+                        <img className='w-full' src={dish9} alt='dish1'/>
+                        <p className='text-left bg-[#243054] p-6'>Saleeg</p>
                     </div>
                 </div>
             </div>

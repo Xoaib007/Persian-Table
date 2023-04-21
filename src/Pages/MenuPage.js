@@ -11,15 +11,15 @@ import dish9 from '../assets/menu/Image (9).png';
 
 const MenuPage = () => {
     return (
-        <div className='min-h-screen bg-[#5B0017]'>
-            <div className='flex text-white'>
-                <p className='xl'>Discover Our Menu</p>
-                <p>There is a wide selection of choices served by top Saudi chefs, prepared using best quality local ingredients.</p>
+        <div className='min-h-screen bg-[#5B0017] pt-36 px-40'>
+            <div className='flex text-white text-left justify-between'>
+                <p className='xl w-1/3'>Discover <br/>Our Menu</p>
+                <p className=' w-1/4'>There is a wide selection of choices served by top Saudi chefs, prepared using best quality local ingredients.</p>
             </div>
 
-            <div className='text-white'>
-                <p>Chef's Special</p>
-                <div className='grid grid-cols-3 gap-10 mx-40'>
+            <div className='text-white mt-24'>
+                <p className='text-2xl text-left mb-14'>Chef's Special</p>
+                <div className='grid grid-cols-3 gap-10'>
                     <div>
                         <img className='w-full' src={dish1} alt='dish1'/>
                         <p className='text-left bg-[#243054] p-6' >Bukhari</p>

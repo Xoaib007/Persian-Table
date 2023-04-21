@@ -11,7 +11,7 @@ import dish9 from '../assets/menu/Image (9).png';
 
 const MenuPage = () => {
     return (
-        <div className='min-h-screen bg-[#5B0017] pt-36 px-40'>
+        <div className='min-h-screen bg-[#5B0017] pt-36 px-40 bannerleft'>
             <div className='flex text-white text-left justify-between'>
                 <p className='xl w-1/3'>Discover <br/>Our Menu</p>
                 <p className=' w-1/4'>There is a wide selection of choices served by top Saudi chefs, prepared using best quality local ingredients.</p>

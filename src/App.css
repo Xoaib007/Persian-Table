@@ -197,3 +197,10 @@
   background-repeat: no-repeat;
   background-position: right;
 }
+
+.bannerleft {
+  background-image: url('../src/assets/bgelement.png');
+  background-size: 40rem;
+  background-repeat: no-repeat;
+  background-position: left;
+}

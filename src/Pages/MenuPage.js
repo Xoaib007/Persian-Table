@@ -8,6 +8,7 @@ import dish6 from '../assets/menu/Image (6).png';
 import dish7 from '../assets/menu/Image (7).png';
 import dish8 from '../assets/menu/Image (8).png';
 import dish9 from '../assets/menu/Image (9).png';
+import Menu from '../Components/MenuPage/Menu';
 
 const MenuPage = () => {
     return (
@@ -17,7 +18,7 @@ const MenuPage = () => {
                 <p className=' w-1/4'>There is a wide selection of choices served by top Saudi chefs, prepared using best quality local ingredients.</p>
             </div>
 
-            <div className='text-white mt-24'>
+            <div className='text-white mt-24 mb-40'>
                 <p className='text-2xl text-left mb-14'>Chef's Special</p>
                 <div className='grid grid-cols-3 gap-10'>
                     <div>
@@ -66,6 +67,8 @@ const MenuPage = () => {
                     </div>
                 </div>
             </div>
+
+            <Menu/>
         </div>
     );
 };

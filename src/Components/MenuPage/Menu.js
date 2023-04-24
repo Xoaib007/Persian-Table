@@ -16,7 +16,7 @@ const Menu = () => {
                 {
                     Array.from( new Array(numPages), (el, index) => (
                         <Page
-                            key={`page_${index + 1}`}
+                            key={`${index + 1}`}
                             pageNumber={index + 1}
                         />
                     )

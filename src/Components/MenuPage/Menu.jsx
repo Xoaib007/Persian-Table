@@ -14,7 +14,7 @@ const Menu = () => {
         <div className='bg-[#5B0017] min-h-screen'>
             <Document
                 file={pdf}
-                onLoadSuccess={onDocumentLoadSuccess}
+                vonLoadSuccess={onDocumentLoadSuccess}
             >
                 {Array.from(
                     new Array(numPages),

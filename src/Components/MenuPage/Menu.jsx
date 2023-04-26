@@ -22,7 +22,7 @@ const Menu = () => {
 
     return (
         <div className='bg-[#5B0017] min-h-screen'>
-            <nav>
+            <nav className=''>
                 <button onClick={goToPrevPage} className="previous">
                     Prev
                 </button>

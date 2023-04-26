@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
-import pdf from '../../assets/ALA-TURKISH-MENU.pdf'
+import pdf from '../../assets/ALA-TURKISH-MENU.pdf';
+import './Menu.css'
 
 const Menu = () => {
 
@@ -22,19 +23,20 @@ const Menu = () => {
     return (
         <div className='bg-[#5B0017] min-h-screen'>
             <nav>
-				<button onClick={goToPrevPage}>Prev</button>
-				<button onClick={goToNextPage}>Next</button>
-				<p>
-					Page {pageNumber} of {numPages}
-				</p>
-			</nav>
+        <button onClick={goToPrevPage} className="previous">
+          Prev
+        </button>
+        <button onClick={goToNextPage} className="next">
+          Next
+        </button>
+        <p>
+          Page {pageNumber} of {numPages}
+        </p>
+      </nav>
 
-			<Document
-				file={pdf}
-				onLoadSuccess={onDocumentLoadSuccess}
-			>
-				<Page pageNumber={pageNumber} />
-			</Document>
+      <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}>
+        <Page pageNumber={pageNumber} />
+      </Document>
         </div>
     );
 };

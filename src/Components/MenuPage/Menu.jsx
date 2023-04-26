@@ -1,31 +1,40 @@
 import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf';
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import pdf from '../../assets/ALA-TURKISH-MENU.pdf'
 
 const Menu = () => {
 
     const [numPages, setNumPages] = useState(null);
+	const [pageNumber, setPageNumber] = useState(1);
 
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
+	const onDocumentLoadSuccess = ({ numPages }) => {
+		setNumPages(numPages);
+	};
+
+	const goToPrevPage = () =>
+		setPageNumber(pageNumber - 1 <= 1 ? 1 : pageNumber - 1);
+
+	const goToNextPage = () =>
+		setPageNumber(
+			pageNumber + 1 >= numPages ? numPages : pageNumber + 1,
+		);
 
     return (
         <div className='bg-[#5B0017] min-h-screen'>
-            <Document
-                file={pdf}
-                vonLoadSuccess={onDocumentLoadSuccess}
-            >
-                {Array.from(
-                    new Array(numPages),
-                    (el, index) => (
-                        <Page
-                            key={`page_${index + 1}`}
-                            pageNumber={index + 1}
-                        />
-                    ),
-                )}
-            </Document>
+            <nav>
+				<button onClick={goToPrevPage}>Prev</button>
+				<button onClick={goToNextPage}>Next</button>
+				<p>
+					Page {pageNumber} of {numPages}
+				</p>
+			</nav>
+
+			<Document
+				file={pdf}
+				onLoadSuccess={onDocumentLoadSuccess}
+			>
+				<Page pageNumber={pageNumber} />
+			</Document>
         </div>
     );
 };

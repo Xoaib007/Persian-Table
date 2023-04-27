@@ -14,7 +14,7 @@ const height = 848;
 const Page = React.forwardRef(({ pageNumber }, ref) => {
     return (
         <div ref={ref}>
-            <ReactPdfPage pageNumber={pageNumber} width={width} />
+            <ReactPdfPage pageNumber={pageNumber} width={width} height={height}/>
         </div>
     );
 });

@@ -8,8 +8,8 @@ import samplePDF from "../../assets/ALA-TURKISH-MENU.pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const width = 300;
-const height = 424;
+const width = 600;
+const height = 848;
 
 const Page = React.forwardRef(({ pageNumber }, ref) => {
     return (
@@ -36,8 +36,8 @@ function Menu() {
     //     );
 
     return (
-        <div classname='flex justify-center'>
-            <Document file={samplePDF}>
+        <div classname='h-fit'>
+            <Document file={samplePDF} classname='flex justify-center'>
                 <HTMLFlipBook width={width} height={height}>
                     <Page pageNumber={1} />
                     <Page pageNumber={2} />

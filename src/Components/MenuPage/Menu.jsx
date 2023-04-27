@@ -36,7 +36,7 @@ function Menu() {
     //     );
 
     return (
-        <div>
+        <div classname='flex justify-center'>
             <Document file={samplePDF}>
                 <HTMLFlipBook width={width} height={height}>
                     <Page pageNumber={1} />

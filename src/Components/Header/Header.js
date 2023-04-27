@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
 
-    const headerMenu = ['About', 'Menu', 'Venue', 'Events'];
+    const headerMenu = ['Home','About', 'Menu', 'Venue', 'Events'];
 
     return (
         <div className='h-36 flex  justify-between px-10 bg-[#5B0017]'>

@@ -37,7 +37,7 @@ function Menu() {
 
     return (
         <div classname=''>
-            <p className="xl text-white">Menu</p>
+            <p className=" text-white xl">Menu</p>
             <Document file={samplePDF} classname='flex justify-center'>
                 <HTMLFlipBook width={width} height={height}>
                     <Page pageNumber={1} />

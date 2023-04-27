@@ -1,28 +1,51 @@
-import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
-import pdf from '../../assets/ALA-TURKISH-MENU.pdf';
-import './Menu.css'
+import React, { useState } from "react";
+import HTMLFlipBook from "react-pageflip";
+import { pdfjs, Document, Page as ReactPdfPage } from "react-pdf";
 
-const Menu = () => {
+// import "./styles.css";
 
-    const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1);
+import samplePDF from "../../assets/ALA-TURKISH-MENU.pdf";
 
-    const onDocumentLoadSuccess = ({ numPages }) => {
-        setNumPages(numPages);
-    };
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-    const goToPrevPage = () =>
-        setPageNumber(pageNumber - 1 <= 1 ? 1 : pageNumber - 1);
+const width = 300;
+const height = 424;
 
-    const goToNextPage = () =>
-        setPageNumber(
-            pageNumber + 1 >= numPages ? numPages : pageNumber + 1,
-        );
+const Page = React.forwardRef(({ pageNumber }, ref) => {
+    return (
+        <div ref={ref}>
+            <ReactPdfPage pageNumber={pageNumber} width={width} />
+        </div>
+    );
+});
+
+function Menu() {
+    // const [numPages, setNumPages] = useState(null);
+    // const [pageNumber, setPageNumber] = useState(1);
+
+    // const onDocumentLoadSuccess = ({ numPages }) => {
+    //     setNumPages(numPages);
+    // };
+
+    // const goToPrevPage = () =>
+    //     setPageNumber(pageNumber - 1 <= 1 ? 1 : pageNumber - 1);
+
+    // const goToNextPage = () =>
+    //     setPageNumber(
+    //         pageNumber + 1 >= numPages ? numPages : pageNumber + 1,
+    //     );
 
     return (
-        <div className='bg-[#5B0017] min-h-screen'>
-            <nav className=''>
+        <div>
+            <Document file={samplePDF}>
+                <HTMLFlipBook width={width} height={height}>
+                    <Page pageNumber={1} />
+                    <Page pageNumber={2} />
+                    <Page pageNumber={3} />
+                </HTMLFlipBook>
+            </Document>
+
+            {/* <nav className=''>
                 <button onClick={goToPrevPage} className="previous">
                     Prev
                 </button>
@@ -32,14 +55,9 @@ const Menu = () => {
                 <p>
                     Page {pageNumber} of {numPages}
                 </p>
-            </nav>
-
-            <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}>
-                <Page pageNumber={pageNumber} />
-            </Document>
+            </nav> */}
         </div>
     );
-};
-
+}
 
 export default Menu;

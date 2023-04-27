@@ -42,6 +42,10 @@ function Menu() {
                     <Page pageNumber={1} />
                     <Page pageNumber={2} />
                     <Page pageNumber={3} />
+                    <Page pageNumber={4} />
+                    <Page pageNumber={5} />
+                    <Page pageNumber={6} />
+                    <Page pageNumber={7} />
                 </HTMLFlipBook>
             </Document>
 

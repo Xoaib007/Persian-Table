@@ -36,7 +36,8 @@ function Menu() {
     //     );
 
     return (
-        <div classname='h-fit'>
+        <div classname=''>
+            <p className="xl text-white">Menu</p>
             <Document file={samplePDF} classname='flex justify-center'>
                 <HTMLFlipBook width={width} height={height}>
                     <Page pageNumber={1} />

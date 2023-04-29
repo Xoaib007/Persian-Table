@@ -1,4 +1,4 @@
-import React from 'react';
+huimport React from 'react';
 import dish1 from '../assets/menu/Image (1).png';
 import dish2 from '../assets/menu/Image (2).png';
 import dish3 from '../assets/menu/Image (3).png';
@@ -72,5 +72,8 @@ const MenuPage = () => {
         </div>
     );
 };
+
+
+
 
 export default MenuPage;
